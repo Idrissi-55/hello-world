@@ -1,0 +1,9 @@
+<p>mon-premier-composant works!</p>
+
+<p *ngIf="unNombre > 50">{{ unNombre }}</p>
+
+<ul *ngIf="unTableau.length > 0">
+  <li *ngFor="let chaqueNombre of unTableau">
+    {{ chaqueNombre }}
+  </li>
+</ul>
